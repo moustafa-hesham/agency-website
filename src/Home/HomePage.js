@@ -6,11 +6,11 @@ import FunFacts from './FunFacts';
 import BestDeals from './BestDeals';
 
 import Contact from './Contact';
-import Footer from './Footer';
 
 import SubNavBar from '../Components/SubNavBar';
 import NavBar from '../Components/NavBar';
 import Properties from './Properties';
+import Footer from '../Components/Footer';
 
 export default function HomePage() {
   return (

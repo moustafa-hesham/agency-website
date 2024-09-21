@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Heading() {
+export default function Heading({ title }) {
   return (
     <div>
       <div class="page-heading header-text">
@@ -8,9 +8,9 @@ export default function Heading() {
           <div class="row">
             <div class="col-lg-12">
               <span class="breadcrumb">
-                <a href="#">Home</a> / Properties
+                <a href="#">Home</a> / {title}
               </span>
-              <h3>Properties</h3>
+              <h3>{title}</h3>
             </div>
           </div>
         </div>

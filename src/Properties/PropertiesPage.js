@@ -3,8 +3,9 @@ import React from 'react';
 import SubNavBar from '../Components/SubNavBar';
 import NavBar from '../Components/NavBar';
 import Footer from '../Components/Footer';
-import Heading from './Heading';
+
 import PropertiesSection from './PropertiesSection';
+import Heading from '../Components/Heading';
 
 export default function PropertiesPage() {
   return (
@@ -12,7 +13,7 @@ export default function PropertiesPage() {
       {/* <Preloader /> */}
       <SubNavBar />
       <NavBar />
-      <Heading />
+      <Heading title={'Properties'} />
       <PropertiesSection />
       <Footer />
     </div>

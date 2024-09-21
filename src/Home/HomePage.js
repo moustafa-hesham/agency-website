@@ -4,12 +4,13 @@ import FeaturedSection from './FeaturedSection';
 import VideoSection from './VideoSection';
 import FunFacts from './FunFacts';
 import BestDeals from './BestDeals';
-import Properties from './Properties';
+
 import Contact from './Contact';
 import Footer from './Footer';
-import Preloader from '../Preloader';
-import SubNavBar from '../SubNavBar';
-import NavBar from '../NavBar';
+
+import SubNavBar from '../Components/SubNavBar';
+import NavBar from '../Components/NavBar';
+import Properties from './Properties';
 
 export default function HomePage() {
   return (

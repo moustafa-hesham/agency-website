@@ -1,4 +1,5 @@
 import React from 'react';
+import PropertyItem from '../Components/PropertyItem';
 
 export default function Properties() {
   return (
@@ -13,198 +14,28 @@ export default function Properties() {
               </div>
             </div>
           </div>
+
           <div className="row">
             <div className="col-lg-4 col-md-6">
-              <div className="item">
-                <a href="property-details.html">
-                  <img src="assets/images/property-01.jpg" alt="" />
-                </a>
-                <span className="category">Luxury Villa</span>
-                <h6>$2,264,000</h6>
-                <h4>
-                  <a href="property-details.html">18 New Street Miami, OR 97219</a>
-                </h4>
-                <ul>
-                  <li>
-                    Bedrooms: <span>8</span>
-                  </li>
-                  <li>
-                    Bathrooms: <span>8</span>
-                  </li>
-                  <li>
-                    Area: <span>545m²</span>
-                  </li>
-                  <li>
-                    Floor: <span>3</span>
-                  </li>
-                  <li>
-                    Parking: <span>6 spots</span>
-                  </li>
-                </ul>
-                <div className="main-button">
-                  <a href="property-details.html">Schedule a visit</a>
-                </div>
-              </div>
+              <PropertyItem
+                title={'18 New Street Miami, OR 97219'}
+                price={'$2,264,000'}
+                img={'assets/images/property-01.jpg'}
+              />
             </div>
             <div className="col-lg-4 col-md-6">
-              <div className="item">
-                <a href="property-details.html">
-                  <img src="assets/images/property-02.jpg" alt="" />
-                </a>
-                <span className="category">Luxury Villa</span>
-                <h6>$1,180,000</h6>
-                <h4>
-                  <a href="property-details.html">54 Mid Street Florida, OR 27001</a>
-                </h4>
-                <ul>
-                  <li>
-                    Bedrooms: <span>6</span>
-                  </li>
-                  <li>
-                    Bathrooms: <span>5</span>
-                  </li>
-                  <li>
-                    Area: <span>450m²</span>
-                  </li>
-                  <li>
-                    Floor: <span>3</span>
-                  </li>
-                  <li>
-                    Parking: <span>8 spots</span>
-                  </li>
-                </ul>
-                <div className="main-button">
-                  <a href="property-details.html">Schedule a visit</a>
-                </div>
-              </div>
+              <PropertyItem
+                title={'54 Mid Street Florida, OR 27001'}
+                price={'$1,321,000'}
+                img={'assets/images/property-02.jpg'}
+              />
             </div>
             <div className="col-lg-4 col-md-6">
-              <div className="item">
-                <a href="property-details.html">
-                  <img src="assets/images/property-03.jpg" alt="" />
-                </a>
-                <span className="category">Luxury Villa</span>
-                <h6>$1,460,000</h6>
-                <h4>
-                  <a href="property-details.html">26 Old Street Miami, OR 38540</a>
-                </h4>
-                <ul>
-                  <li>
-                    Bedrooms: <span>5</span>
-                  </li>
-                  <li>
-                    Bathrooms: <span>4</span>
-                  </li>
-                  <li>
-                    Area: <span>225m²</span>
-                  </li>
-                  <li>
-                    Floor: <span>3</span>
-                  </li>
-                  <li>
-                    Parking: <span>10 spots</span>
-                  </li>
-                </ul>
-                <div className="main-button">
-                  <a href="property-details.html">Schedule a visit</a>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6">
-              <div className="item">
-                <a href="property-details.html">
-                  <img src="assets/images/property-04.jpg" alt="" />
-                </a>
-                <span className="category">Apartment</span>
-                <h6>$584,500</h6>
-                <h4>
-                  <a href="property-details.html">12 New Street Miami, OR 12650</a>
-                </h4>
-                <ul>
-                  <li>
-                    Bedrooms: <span>4</span>
-                  </li>
-                  <li>
-                    Bathrooms: <span>3</span>
-                  </li>
-                  <li>
-                    Area: <span>125m²</span>
-                  </li>
-                  <li>
-                    Floor: <span>25th</span>
-                  </li>
-                  <li>
-                    Parking: <span>2 cars</span>
-                  </li>
-                </ul>
-                <div className="main-button">
-                  <a href="property-details.html">Schedule a visit</a>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6">
-              <div className="item">
-                <a href="property-details.html">
-                  <img src="assets/images/property-05.jpg" alt="" />
-                </a>
-                <span className="category">Penthouse</span>
-                <h6>$925,600</h6>
-                <h4>
-                  <a href="property-details.html">34 Beach Street Miami, OR 42680</a>
-                </h4>
-                <ul>
-                  <li>
-                    Bedrooms: <span>4</span>
-                  </li>
-                  <li>
-                    Bathrooms: <span>4</span>
-                  </li>
-                  <li>
-                    Area: <span>180m²</span>
-                  </li>
-                  <li>
-                    Floor: <span>38th</span>
-                  </li>
-                  <li>
-                    Parking: <span>2 cars</span>
-                  </li>
-                </ul>
-                <div className="main-button">
-                  <a href="property-details.html">Schedule a visit</a>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6">
-              <div className="item">
-                <a href="property-details.html">
-                  <img src="assets/images/property-06.jpg" alt="" />
-                </a>
-                <span className="category">Modern Condo</span>
-                <h6>$450,000</h6>
-                <h4>
-                  <a href="property-details.html">22 New Street Portland, OR 16540</a>
-                </h4>
-                <ul>
-                  <li>
-                    Bedrooms: <span>3</span>
-                  </li>
-                  <li>
-                    Bathrooms: <span>2</span>
-                  </li>
-                  <li>
-                    Area: <span>165m²</span>
-                  </li>
-                  <li>
-                    Floor: <span>26th</span>
-                  </li>
-                  <li>
-                    Parking: <span>3 cars</span>
-                  </li>
-                </ul>
-                <div className="main-button">
-                  <a href="property-details.html">Schedule a visit</a>
-                </div>
-              </div>
+              <PropertyItem
+                title={'26 Old Street Miami, OR 38540'}
+                price={'$5,229,000'}
+                img={'assets/images/property-03.jpg'}
+              />
             </div>
           </div>
         </div>

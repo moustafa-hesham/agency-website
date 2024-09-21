@@ -19,22 +19,22 @@ export default function SubNavBar() {
             <div className="col-lg-4 col-md-4">
               <ul className="social-links">
                 <li>
-                  <a href="#">
+                  <a href="https://facebook.com" target="_blank" rel="noreferrer">
                     <i className="fab fa-facebook"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="https://x.com/minthu" target="_blank">
+                  <a href="https://x.com/minthu" target="_blank" rel="noreferrer">
                     <i className="fab fa-twitter"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a href="https://linkdin.com" target="_blank" rel="noreferrer">
                     <i className="fab fa-linkedin"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a href="https://instagram.com" target="_blank" rel="noreferrer">
                     <i className="fab fa-instagram"></i>
                   </a>
                 </li>

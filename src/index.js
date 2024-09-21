@@ -5,7 +5,6 @@ import App from './App';
 import PropertiesPage from './Properties/PropertiesPage';
 import DetailsPage from './Details/DetailsPage';
 import ContactPage from './Contact Us/ContactPage';
-import AllProducts from './Products/AllProducts';
 
 const router = createBrowserRouter([
   {

@@ -29,6 +29,9 @@ export default function NavBar() {
                     <NavLink to="/contact">Contact Us</NavLink>
                   </li>
                   <li>
+                    <NavLink to="/products">All Products</NavLink>
+                  </li>
+                  <li>
                     <a href="https://www.google.com" target="_blank" rel="noreferrer">
                       <i className="fa fa-calendar"></i> Schedule a visit
                     </a>

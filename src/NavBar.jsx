@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 export default function NavBar() {
   return (
@@ -9,35 +10,33 @@ export default function NavBar() {
             <div className="col-12">
               <nav className="main-nav">
                 {/* <!-- ***** Logo Start ***** --> */}
-                <a href="index.html" className="logo">
+                <NavLink to="/" className="logo">
                   <h1>Villa</h1>
-                </a>
+                </NavLink>
                 {/* <!-- ***** Logo End ***** -->
                     <!-- ***** Menu Start ***** --> */}
                 <ul className="nav">
                   <li>
-                    <a href="index.html" className="active">
-                      Home
-                    </a>
+                    <NavLink to="/">Home</NavLink>
                   </li>
                   <li>
-                    <a href="properties.html">Properties</a>
+                    <NavLink to="/properties">Properties</NavLink>
                   </li>
                   <li>
-                    <a href="property-details.html">Property Details</a>
+                    <NavLink to="/details">Property Details</NavLink>
                   </li>
                   <li>
-                    <a href="contact.html">Contact Us</a>
+                    <NavLink to="/contact">Contact Us</NavLink>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="https://www.google.com" target="_blank" rel="noreferrer">
                       <i className="fa fa-calendar"></i> Schedule a visit
                     </a>
                   </li>
                 </ul>
-                <a className="menu-trigger">
+                <NavLink className="menu-trigger">
                   <span>Menu</span>
-                </a>
+                </NavLink>
                 {/* <!-- ***** Menu End ***** --> */}
               </nav>
             </div>
